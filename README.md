@@ -1,3 +1,3 @@
-# Css Battle achieve
+# Css Battle Solution
 
 ![result](./challenge.png)
