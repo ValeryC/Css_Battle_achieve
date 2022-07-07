@@ -54,15 +54,6 @@
     position: absolute;
     top: 80px;
   }
-  .rectangle {
-    z-index: 1;
-    background-color: #243d83;
-    height: 150px;
-    width: 300px;
-    position: absolute;
-    margin: auto;
-    top: 75px;
-  }
   .rotated-half-circle {
     position: absolute;
     width: 60px;
