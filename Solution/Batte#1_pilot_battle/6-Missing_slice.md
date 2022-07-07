@@ -1,6 +1,6 @@
 # Battle #1 - Pilot Battle
 
-## #5 - Missing Slice
+## #6 - Missing Slice
 
 [Link to the problem](https://cssbattle.dev/play/6)
 
