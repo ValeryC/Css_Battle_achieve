@@ -7,56 +7,45 @@
 ![result](./images/web_maker_logo.png)
 
 ```html
-<div class="triangle"></div>
-<div class="triangle2"></div>
-<div class="triangle3"></div>
-<div class="triangle4"></div>
+<div class="wrapper">
+  <div class="triangle"></div>
+  <div class="triangle"></div>
+  <div class="triangle"></div>
+  <div class="triangle"></div>
+</div>
 <style>
-  html {
+  body {
     background: #f2f2b6;
-    z-index: 3;
+  }
+  .wrapper {
+    position: relative;
+    width: 280px;
+    height: 130px;
+    margin: 85px auto;
   }
   .triangle {
     position: absolute;
-    width: 150px;
-    height: 130px;
-    background-color: #ff6d00;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
-    top: 85px;
-    left: 60px;
-    z-index: 2;
-  }
-
-  .triangle2 {
-    position: absolute;
-    width: 150px;
-    height: 130px;
-    background-color: #fd4602;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
-    top: 85px;
-    left: 80px;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 130px solid #ff6d00;
     z-index: 1;
   }
-  .triangle3 {
-    position: absolute;
-    width: 150px;
-    height: 130px;
-    background-color: #fd4602;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
-    transform: rotate(180deg);
-    top: 85px;
-    left: 170px;
+  .triangle:nth-child(2) {
+    border-top-color: #fd4602;
+    left: 20px;
+    z-index: 0;
+  }
+  .triangle:nth-child(3) {
+    transform: scaleY(-1);
+    border-top-color: #fd4602;
+    left: 110px;
     z-index: 1;
   }
-  .triangle4 {
-    position: absolute;
-    width: 150px;
-    height: 130px;
-    background-color: #ff6d00;
-    clip-path: polygon(100% 0, 0 0, 50% 100%);
-    transform: rotate(180deg);
-    top: 85px;
-    left: 190px;
+  .triangle:nth-child(4) {
+    transform: scaleY(-1);
+    left: 130px;
     z-index: 0;
   }
 </style>
