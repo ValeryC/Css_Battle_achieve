@@ -7,65 +7,42 @@
 ![result](./images/cube.png)
 
 ```html
-<div class="square"></div>
-<div class="diamond-narrow"></div>
-<div class="diamond-narrow2"></div>
-<div class="diamond-narrow3"></div>
-<div class="diamond-narrow4"></div>
+<p a><p b><p c>
 <style>
-  html{
-    width: 100%;
-    height: 100%;
-    background:#0B2429;
-  }
-
-.diamond-narrow {
-  width: 0;
-  height: 0;
-  border-bottom: 70px solid #998235;
-  border-left: 70px solid transparent;
-  position: absolute;
-  top: 45px;
-  left: 130px;
+body {
+  display: flex;
+  justify-content: center;
+  background: #0b2429;
 }
-
-.diamond-narrow2 {
+p {
   position: absolute;
-  width: 0;
-  height: 0;
-  border-top: 70px solid #998235;
-  border-right: 70px solid transparent;
-  top: 115px;
-  left: 130px;
 }
-
-.diamond-narrow3 {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-right: 70px solid #1a4341;
-  border-bottom: 70px solid transparent;
-  top: 115px;
-  left: 200px;
-}
-
-.diamond-narrow4 {
-  position: absolute;
-  width: 0;
-  height: 0;
-  border-left: 70px solid #1a4341;
-  border-top: 70px solid transparent;
-  top: 45px;
-  left: 200px;
-}
-
-.square {
+p[a] {
   width: 100px;
   height: 100px;
   background: #f3ac3c;
   transform: rotate(45deg);
-  margin: 128px 142px;
-  position: absolute;
+  position: relative;
+  top: 112px;
+  left: 0px;
+}
+
+p[b] {
+  background: #998235;
+  width: 71px;
+  height: 70px;
+  top: 64px;
+  left: 130px;
+  transform: skew(0, -45deg);
+}
+
+p[c] {
+  background: #1a4341;
+  width: 71px;
+  height: 70px;
+  top: 64px;
+  left: 200px;
+  transform: skew(0, 45deg);
 }
 </style>
 ```
