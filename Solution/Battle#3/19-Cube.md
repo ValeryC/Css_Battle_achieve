@@ -19,7 +19,7 @@
     background:#0B2429;
   }
 
-	.diamond-narrow {
+.diamond-narrow {
   width: 0;
   height: 0;
   border-bottom: 70px solid #998235;
