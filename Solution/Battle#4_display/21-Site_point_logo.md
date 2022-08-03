@@ -1,4 +1,4 @@
-# Battle #3 - Visibility
+# Battle #4 - Display
 
 ## #21 - Site Point Logo
 

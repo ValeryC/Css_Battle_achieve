@@ -1,3 +1,5 @@
+# Battle #4 - Display
+
 ## #24 - Switches
 
 [Link to the problem](https://cssbattle.dev/play/24)

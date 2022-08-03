@@ -1,4 +1,4 @@
-# Battle #3 - Visibility
+# Battle #3 - Cursor
 
 ## #20 - Ticket
 

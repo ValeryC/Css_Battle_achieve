@@ -1,3 +1,5 @@
+# Battle #4 - Display
+
 ## #26 - Smiley
 
 [Link to the problem](https://cssbattle.dev/play/26)
