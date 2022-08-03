@@ -16,7 +16,7 @@
     width:100px;
     border-radius:50%;
     background:#D86F45;
- 	margin:115px 92px;
+ 	  margin:115px 92px;
   }  
   div::before{
     position:absolute;
