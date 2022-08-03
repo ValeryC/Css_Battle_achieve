@@ -5,6 +5,7 @@
 [Link to the problem](https://cssbattle.dev/play/20)
 
 ![result](./images/ticket.png)
+
 ```html
 <p a><p b><p c><p d><p e> 
 <style>
