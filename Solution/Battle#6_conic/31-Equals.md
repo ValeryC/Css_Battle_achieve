@@ -19,7 +19,7 @@
     width: 250px;
     height: 200px; 
     background:linear-gradient(to right,#F7EC7D 100px, #AA445F 0px 150px, #E38F66 100px );
-  	border-radius:100px;  
+    border-radius:100px;  
   }
 </style>
 ```
