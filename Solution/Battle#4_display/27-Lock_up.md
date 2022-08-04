@@ -9,7 +9,7 @@
 ```html
 <div></div>
 <style>
-  body {
+  body{
     background: #E38F66;
   }
   div{
@@ -26,7 +26,7 @@
     content:'';
     position:absolute;
     width: 80px;
-  	height: 80px;
+    height: 80px;
     top:50%;
     left:50%;
     transform: translate(-50%,-50%) rotate(-45deg);
